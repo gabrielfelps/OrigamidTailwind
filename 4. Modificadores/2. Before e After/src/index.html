@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo Elementos</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="flex flex-col gap-2 h-screen justify-center items-center">
+  <button
+    class="relative bg-sky-300 text-sky-800 hover:bg-sky-600 hover:text-sky-50 active:bg-sky-900 px-5 py-2 rounded-md">
+    Enviar
+    <span
+      class="after:size-6 after:absolute after:bg-sky-50 after:rounded-full after:border-4 after:border-sky-900 after:border-r-transparent after:-top-2 after:-right-2"></span>
+  </button>
+
+  <input type="text" class="border-2 rounded-md border-gray-400 p-2 placeholder:text-gray-500" placeholder="Email">
+
+  <ul class="list-disc mt-8 marker:text-green-400">
+    <li>Produto 1</li>
+    <li>Produto 2</li>
+    <li>Produto 3</li>
+  </ul>
+
+</body>
+
+</html>
