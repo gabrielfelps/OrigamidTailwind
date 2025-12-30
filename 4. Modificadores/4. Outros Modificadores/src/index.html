@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outros Modificadores</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+<body
+  class="flex flex-col justify-center items-center h-screen gap-5 bg-neutral-200 dark:bg-neutral-700 dark:text-neutral-200">
+  <h1 class="font-semibold uppercase tracking-wide">Escolha a Sua</h1>
+  <form action="" class="grid gap-2">
+    <div class="text-neutral-950">
+      <input class="mr-1 peer" name="bike" type="radio" id="nimbus" value="nimbus">
+      <label
+        class="inline-grid grid-cols-[200px_auto] bg-slate-200 p-2 cursor-pointer rounded-md peer-checked:bg-slate-400 peer-hover:bg-slate-300 mb-2"
+        for="nimbus">
+        Nimbus Stark
+        <span>R$ 4999</span>
+      </label>
+      <ul class="bg-slate-200 rounded-md p-2 ml-5 hidden peer-checked:block">
+        <li>Motor Elétrico</li>
+        <li>Fibra de Carbono</li>
+        <li>50 km/h</li>
+        <li>Rastreador</li>
+      </ul>
+    </div>
+
+    <div class="text-neutral-950">
+      <input class="mr-1 peer" name="bike" type="radio" id="magic" value="magic">
+      <label
+        class="inline-grid grid-cols-[200px_auto] bg-slate-200 p-2 cursor-pointer rounded-md peer-checked:bg-slate-400 peer-hover:bg-slate-300 mb-2"
+        for="magic">
+        Magic Might
+        <span>R$ 2499</span>
+      </label>
+      <ul class="bg-slate-200 rounded-md p-2 ml-5 hidden peer-checked:block">
+        <li>Motor Elétrico</li>
+        <li>Fibra de Carbono</li>
+        <li>45 km/h</li>
+        <li>Rastreador</li>
+      </ul>
+    </div>
+
+    <div class="text-neutral-950">
+      <input class="mr-1 peer" name="bike" type="radio" id="nebula" value="nebula">
+      <label
+        class="inline-grid grid-cols-[200px_auto] bg-slate-200 p-2 cursor-pointer rounded-md peer-checked:bg-slate-400 peer-hover:bg-slate-300 mb-2"
+        for="nebula">
+        Nebula Cosmic
+        <span>R$ 3999</span>
+      </label>
+      <ul class="bg-slate-200 rounded-md p-2 ml-5 hidden peer-checked:block">
+        <li>Motor Elétrico</li>
+        <li>Fibra de Carbono</li>
+        <li>40 km/h</li>
+        <li>Rastreador</li>
+      </ul>
+    </div>
+  </form>
+</body>
+
+</html>
