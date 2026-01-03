@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Criar novas cores */
+  --color-verde-200: #acef75;
+  --color-verde-300: #91ee77;
+  --color-verde-900: #16281f;
+  --color-verde-950: #0f1c15;
+
+  /* Escrever por cima de qualquer variável existentes */
+  --color-lime-300: var(--color-pink-300);
+  --color-lime-900: var(--color-pink-900);
+  --color-lime-950: var(--color-pink-950);
+
+  --text-2xs: 0.5rem;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 1.5rem;
+
+  /* Remove das opções */
+  --color-blue-*: initial;
+
+  /* cria um novo media querie */
+  --breakpoint-xs: 380px;
+
+  /* modifica o espaçamento padrão */
+  --spacing: 6px;
+  --spacing-22: 5.5rem;
+
+  /* adiciona uma animação */
+  --animate-slideIn: slideIn 0.3s ease-in-out forwards;
+
+  /* adiciona um keyframe */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
