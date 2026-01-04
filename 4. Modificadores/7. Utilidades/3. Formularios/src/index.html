@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="m-8 accent-purple-500">
+  <div class="grid gap-1">
+    <form action="" class="bg-gray-100 max-w-sm p-8 rounded-md mx-auto space-y-3">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email"
+        class="border-2 border-gray-300 rounded-md p-2 focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-100">
+
+      <div>
+        <label class="flex items-center gap-2" for="termos">
+          <input id="termos" name="termos" type="checkbox" class="size-4" checked />Li e aceito os termos.</label>
+      </div>
+
+      <select name="" id=""
+        class="appearance-none border-2 border-gray-300 rounded-md p-1.5 focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-100 bg-[url('./images/seta.svg')] bg-no-repeat pr-8 bg-position-[center_right_0.5rem]">
+        <option value="">Salvador</option>
+        <option value="">São Paulo</option>
+        <option value="">Rio de Janeiro</option>
+      </select>
+
+      <input type="file" name="" id=""
+        class="file:border-2 file:text-gray-700 text-gray-400 file:border-solid file:border-gray-400 file:rounded-md file:py-2 file:px-4 file:bg-gray-200 hover:file:bg-gray-300 focus:outline-none focus:file:ring-2 focus:file:border-purple-400 focus:file:ring-purple-100">
+    </form>
+  </div>
+</body>
+
+</html>
