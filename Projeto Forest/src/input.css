@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-green-*: initial;
+
+  --color-green-200: #acef75;
+  --color-green-300: #91ee77;
+  --color-green-400: #17e880;
+  --color-green-700: #2e482c;
+  --color-green-800: #16281f;
+  --color-green-900: #0f1c15;
+  --color-green-950: #030504;
+
+  --font-dmSans: 'DM Sans', sans-serif;
+}
+
+@layer base {
+  .container {
+    margin-inline: auto;
+    padding-inline: 0.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-inline: 1rem;
+    }
+  }
+}
