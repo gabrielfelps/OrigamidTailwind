@@ -26,3 +26,7 @@
     }
   }
 }
+
+.btn {
+  box-shadow: 0 1px 4px 1px rgb(172 239 117 / 25%), inset 0px -1px 2px #acef75;
+}

@@ -11,7 +11,7 @@ export default class Today {
       'Quarta',
       'Quinta',
       'Sexta',
-      'Sabado',
+      'Sábado',
     ];
 
     const weekDayName = weekDay[today];
